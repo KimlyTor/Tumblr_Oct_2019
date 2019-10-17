@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		282A65442358A1AC003A845F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A65432358A1AC003A845F /* AppDelegate.swift */; };
 		282A65462358A1AC003A845F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A65452358A1AC003A845F /* SceneDelegate.swift */; };
-		282A65482358A1AC003A845F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A65472358A1AC003A845F /* ViewController.swift */; };
 		282A654B2358A1AC003A845F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A65492358A1AC003A845F /* Main.storyboard */; };
 		282A654D2358A1AF003A845F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282A654C2358A1AF003A845F /* Assets.xcassets */; };
 		282A65502358A1AF003A845F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A654E2358A1AF003A845F /* LaunchScreen.storyboard */; };
 		282A655B2358A1AF003A845F /* Tumblr_Oct_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A655A2358A1AF003A845F /* Tumblr_Oct_2019Tests.swift */; };
 		282A65662358A1AF003A845F /* Tumblr_Oct_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A65652358A1AF003A845F /* Tumblr_Oct_2019UITests.swift */; };
+		282A65742358A3A5003A845F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A65732358A3A5003A845F /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		282A65402358A1AC003A845F /* Tumblr_Oct_2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr_Oct_2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		282A65432358A1AC003A845F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		282A65452358A1AC003A845F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		282A65472358A1AC003A845F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		282A654A2358A1AC003A845F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		282A654C2358A1AF003A845F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282A654F2358A1AF003A845F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		282A65612358A1AF003A845F /* Tumblr_Oct_2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tumblr_Oct_2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282A65652358A1AF003A845F /* Tumblr_Oct_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblr_Oct_2019UITests.swift; sourceTree = "<group>"; };
 		282A65672358A1AF003A845F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282A65732358A3A5003A845F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				282A65432358A1AC003A845F /* AppDelegate.swift */,
 				282A65452358A1AC003A845F /* SceneDelegate.swift */,
-				282A65472358A1AC003A845F /* ViewController.swift */,
+				282A65732358A3A5003A845F /* PhotosViewController.swift */,
 				282A65492358A1AC003A845F /* Main.storyboard */,
 				282A654C2358A1AF003A845F /* Assets.xcassets */,
 				282A654E2358A1AF003A845F /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282A65482358A1AC003A845F /* ViewController.swift in Sources */,
+				282A65742358A3A5003A845F /* PhotosViewController.swift in Sources */,
 				282A65442358A1AC003A845F /* AppDelegate.swift in Sources */,
 				282A65462358A1AC003A845F /* SceneDelegate.swift in Sources */,
 			);
